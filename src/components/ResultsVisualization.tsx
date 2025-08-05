@@ -4,6 +4,7 @@ import { Progress } from "@/components/ui/progress";
 import { AlertTriangle, CheckCircle, XCircle, TrendingUp } from "lucide-react";
 
 const ResultsVisualization = () => {
+  console.log("ResultsVisualization component rendering");
   const detectionResults = [
     { id: 1, device: "Smart Camera #1", threat: "DDoS Botnet", confidence: 92, status: "blocked", timestamp: "2024-01-15 14:32:15" },
     { id: 2, device: "IoT Sensor #7", threat: "Mirai Variant", confidence: 87, status: "blocked", timestamp: "2024-01-15 14:30:42" },

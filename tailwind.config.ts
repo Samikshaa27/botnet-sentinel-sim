@@ -52,13 +52,11 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				cyber: {
-					blue: 'hsl(var(--cyber-blue))',
-					'blue-glow': 'hsl(var(--cyber-blue-glow))',
-					green: 'hsl(var(--cyber-green))',
-					red: 'hsl(var(--cyber-red))',
-					orange: 'hsl(var(--cyber-orange))'
-				},
+				"cyber-blue": 'hsl(var(--cyber-blue))',
+				"cyber-blue-glow": 'hsl(var(--cyber-blue-glow))',
+				"cyber-green": 'hsl(var(--cyber-green))',
+				"cyber-red": 'hsl(var(--cyber-red))',
+				"cyber-orange": 'hsl(var(--cyber-orange))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',

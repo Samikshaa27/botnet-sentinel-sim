@@ -4,6 +4,7 @@ import ResultsVisualization from "@/components/ResultsVisualization";
 import TechnicalOverview from "@/components/TechnicalOverview";
 
 const Index = () => {
+  console.log("Index page rendering");
   return (
     <div className="min-h-screen bg-gradient-bg">
       <Hero />

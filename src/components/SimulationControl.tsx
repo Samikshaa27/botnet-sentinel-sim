@@ -9,6 +9,7 @@ import { Upload, Play, Pause, RotateCcw } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 const SimulationControl = () => {
+  console.log("SimulationControl component rendering");
   const [isRunning, setIsRunning] = useState(false);
   const [confidence, setConfidence] = useState([75]);
   const [uploadedFile, setUploadedFile] = useState<File | null>(null);

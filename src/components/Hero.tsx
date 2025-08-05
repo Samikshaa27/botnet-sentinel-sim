@@ -2,6 +2,7 @@ import { Shield, Cpu, Activity } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Hero = () => {
+  console.log("Hero component rendering");
   return (
     <section className="min-h-screen bg-gradient-bg flex items-center justify-center relative overflow-hidden">
       {/* Animated background elements */}

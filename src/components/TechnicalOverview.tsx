@@ -3,6 +3,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Brain, Network, Shield, Database } from "lucide-react";
 
 const TechnicalOverview = () => {
+  console.log("TechnicalOverview component rendering");
   return (
     <section className="py-16 bg-background">
       <div className="container mx-auto px-6">
